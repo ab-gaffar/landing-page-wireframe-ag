@@ -1,0 +1,51 @@
+/* golobal */
+*{
+    margin: auto auto;
+    box-sizing: border-box;
+}
+/* header start */
+header{
+    background-color: #ffff;
+    
+}
+
+/* framework */
+.container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-inline: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px){
+    .flex-md-4{
+        flex-basis: 33.33%;
+    }
+}
+@media (min-width: 576px){
+    .container{
+     max-width: 516;
+        
+    }
+}
+@media (min-width: 768px){
+    .container{
+     max-width: 708;
+        
+    }
+}
+@media (min-width: 992px){
+    .container{
+     max-width: 960;
+        
+    }
+}
+@media (min-width: 1200px){
+    .container{
+     max-width: 1170px;
+        
+    }
+}
